@@ -248,5 +248,5 @@ Each core capability includes defined verification methods and pass criteria:
 
 - **Project**: Tokito
 - **Event**: HackWithAditya Hackathon
-- **Author**: Team Owl Coders (Nandi Vardhan, Lead Developer)
+- **Author**: Nandi Vardhan
 - **License**: Private / Hackathon Submission

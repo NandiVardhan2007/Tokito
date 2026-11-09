@@ -332,7 +332,7 @@ fun SettingsScreen(
             row("version") {
                 InsetRow(
                     title = "Tokito",
-                    subtitle = "By Owl Coders",
+                    subtitle = "Autonomous Cyber Sentinel",
                     leading = {
                         androidx.compose.foundation.Image(
                             painter = androidx.compose.ui.res.painterResource(com.owlcoders.tokito.R.drawable.tokito_logo),
