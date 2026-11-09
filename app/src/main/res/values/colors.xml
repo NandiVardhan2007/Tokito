@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Window background before Compose draws: the grouped background (see TokitoColors). -->
+    <color name="tokito_background">#F2F2EC</color>
+    <!-- Splash: always the dark brand tile, in both appearances. -->
+    <color name="tokito_splash">#050508</color>
+</resources>

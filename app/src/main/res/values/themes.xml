@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- No system action bar: the app draws its own. The window background matches the grouped
+         background of the current appearance, so there is no flash before Compose attaches.
+         Bar colours are set by enableEdgeToEdge(). -->
+    <style name="Theme.Tokito" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/tokito_background</item>
+    </style>
+
+    <!-- Starting window: the brand-dark tile with no icon. The animated splash (TokitoSplash)
+         draws the face on the same background, so the hand-off has no seam. -->
+    <style name="Theme.Tokito.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/tokito_splash</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_blank</item>
+        <item name="postSplashScreenTheme">@style/Theme.Tokito</item>
+    </style>
+</resources>
